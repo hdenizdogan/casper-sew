@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(224, 86, 86);
+}
+
+body {
+    cursor: url('/8_kedi_sew/img/hand.png'), auto;
+}
+
+.container {
+    text-align: center;
+}
+.container h1 {
+    font-size: 4rem;
+    margin-top: 3rem;
+    color: beige;
+}
+
+.img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img img {
+    width: 45%;
+}
+
+
+
+@media (max-width: 600px) {
+    
+    
+    .img img {
+        width: 110%;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+   
+    .img img {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .img img {
+        width: 45%;
+    }
+}
