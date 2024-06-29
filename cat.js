@@ -1,10 +1,10 @@
-let pingu = document.querySelector(".pingu")
+let casper = document.querySelector(".casper")
 
-pingu.addEventListener("click", petPingu);
+casper.addEventListener("click", petcasper);
 
 let isPlaying = false;
 
-function petPingu() {
+function petcasper() {
     if(!isPlaying) {
         isPlaying = true;
         let audio = new Audio("pet.mp3")
