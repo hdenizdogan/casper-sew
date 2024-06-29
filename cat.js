@@ -9,7 +9,7 @@ function petcasper() {
         isPlaying = true;
         let audio = new Audio("pet.mp3")
         audio.play();
-        audio.volume = 0.3;
+        audio.volume = 0.5;
         audio.addEventListener("ended", function() {
             isPlaying = false;
         });
