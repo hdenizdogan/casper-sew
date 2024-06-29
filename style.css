@@ -51,6 +51,6 @@ body {
 
 @media (min-width: 1025px) {
     .img img {
-        width: 45%;
+        width: 80%;
     }
 }
